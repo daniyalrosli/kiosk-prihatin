@@ -105,19 +105,19 @@ function Events() {
                           <Link to="/">Home</Link>
                         </li>
                         <li>
-                          <Link to="about">About</Link>
+                          <Link to="/about">About</Link>
                         </li>
                         <li>
-                          <Link to="volunteer">volunteer</Link>
+                          <Link to="/volunteer">volunteer</Link>
                         </li>
                         <li>
-                          <Link to="events">social events </Link>
+                          <Link to="/events">social events </Link>
                         </li>
                         <li>
-                          <Link to="stocks">stocks</Link>
+                          <Link to="/stocks">stocks</Link>
                         </li>
                         <li>
-                          <Link to="contact">contact</Link>
+                          <Link to="/contact">contact</Link>
                         </li>
                       </ul>
                     </nav>

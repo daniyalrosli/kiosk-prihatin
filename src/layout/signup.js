@@ -13,8 +13,9 @@ function Signup() {
 <div className="login-wrap">
   <h2>Sign Up</h2>
   <div className="form">
-    <input type="text" placeholder="Username" name="un" />
+    <input type="text" placeholder="Full name" name="un" />
     <input type="text" placeholder="Email" name="em" />
+    <input type="password" placeholder="Password" name="un" />
     <input type="password" placeholder="Username" name="un" />
 
                 

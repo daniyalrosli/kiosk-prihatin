@@ -102,19 +102,16 @@ function Contact() {
                           <Link to="/">Home</Link>
                         </li>
                         <li>
-                          <Link to="about">About</Link>
+                          <Link to="/about">About</Link>
                         </li>
                         <li>
-                          <Link to="volunteer">volunteer</Link>
+                          <Link to="/volunteer">volunteer</Link>
                         </li>
                         <li>
-                          <Link to="events">social events </Link>
+                          <Link to="/events">social events </Link>
                         </li>
                         <li>
-                          <Link to="elements">Blog</Link>
-                        </li>
-                        <li>
-                          <Link to="contact">contact</Link>
+                          <Link to="/contact">contact</Link>
                         </li>
                       </ul>
                     </nav>
@@ -1789,8 +1786,8 @@ function Contact() {
                 <i className="ti-home" />
               </span>
               <div className="media-body">
-                <h3>Buttonwood, California.</h3>
-                <p>Rosemead, CA 91770</p>
+                <h3>UiTM Kampus Sungai Petani</h3>
+                <p>Merbok,Kedah</p>
               </div>
             </div>
             <div className="media contact-info">
@@ -1798,7 +1795,7 @@ function Contact() {
                 <i className="ti-tablet" />
               </span>
               <div className="media-body">
-                <h3>+1 253 565 2365</h3>
+                <h3>+60 109089373</h3>
                 <p>Mon to Fri 9am to 6pm</p>
               </div>
             </div>
@@ -1807,7 +1804,7 @@ function Contact() {
                 <i className="ti-email" />
               </span>
               <div className="media-body">
-                <h3>support@colorlib.com</h3>
+                <h3>kioskprihatin@gmail.com</h3>
                 <p>Send us your query anytime!</p>
               </div>
             </div>

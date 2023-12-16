@@ -13,10 +13,11 @@ function Login() {
     <input type="text" placeholder="Username" name="un" />
     <input type="password" placeholder="Password" name="pw" />
     <button>Login </button>
+            <a href="#"></a>
     
  
               
-  <p><Link to="/signup">Dont have an account yet? Sign Up </Link></p>
+ <center><p><Link to="/signup">Dont have an account yet? Sign Up </Link></p></center> 
     
   </div>
 </div>

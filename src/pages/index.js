@@ -235,9 +235,9 @@ function Index() {
               </p>
              
             </div>
-            <a href="about.html" className="btn">
+            <Link to="about" className="btn">
               About US
-            </a>
+            </Link>
           </div>
           <div className="col-lg-6 col-md-12">
             {/* about-img */}
@@ -247,7 +247,7 @@ function Index() {
                 
               </div>
               <div className="about-back-img ">
-                <img src="" alt="" />
+                <img src="assets/img/logo/k2.png" alt="" />
               </div>
             </div>
           </div>
@@ -291,10 +291,10 @@ function Index() {
                 {/* / progress */}
                 <div className="prices d-flex justify-content-between">
                   <p>
-                    Raised:<span> $20,000</span>
+                    Raised:<span> RM20,000</span>
                   </p>
                   <p>
-                    Goal:<span> $35,000</span>
+                    Goal:<span> RM35,000</span>
                   </p>
                 </div>
               </div>
@@ -323,10 +323,10 @@ function Index() {
                 {/* / progress */}
                 <div className="prices d-flex justify-content-between">
                   <p>
-                    Raised:<span> $20,000</span>
+                    Raised:<span> RM20,000</span>
                   </p>
                   <p>
-                    Goal:<span> $35,000</span>
+                    Goal:<span> RM35,000</span>
                   </p>
                 </div>
               </div>
@@ -355,10 +355,10 @@ function Index() {
                 {/* / progress */}
                 <div className="prices d-flex justify-content-between">
                   <p>
-                    Raised:<span> $20,000</span>
+                    Raised:<span> RM20,000</span>
                   </p>
                   <p>
-                    Goal:<span> $35,000</span>
+                    Goal:<span> RM35,000</span>
                   </p>
                 </div>
               </div>
@@ -489,7 +489,7 @@ function Index() {
             {/* Section Tittle */}
             <div className="section-tittle section-tittle2 text-center mb-70">
               <span>What we are doing</span>
-              <h2>Our Expert Volunteer Alwyes ready</h2>
+              <h2>Our Expert Volunteer Always ready</h2>
             </div>
           </div>
         </div>
@@ -630,9 +630,9 @@ function Index() {
               </div>
             </div>
             <div className="col-xl-2 col-lg-3 col-md-4">
-              <a href="#" className="btn white-btn f-right sm-left">
+             <center> <Link to="volunteer" className="btn white-btn f-right sm-left">
                 Become A Volunteer
-              </a>
+              </Link></center> 
             </div>
           </div>
         </div>
@@ -732,7 +732,7 @@ function Index() {
             <div className="home-blog-single mb-30">
               <div className="blog-img-cap">
                 <div className="blog-img">
-                  <img src="assets/img/gallery/r2.png" alt="" />
+                  <img src="assets/img/gallery/r2.jpeg" alt="" />
                   {/* Blog date */}
                   <div className="blog-date text-center">
                     <span>24</span>
@@ -743,7 +743,7 @@ function Index() {
                   <p>Creative derector</p>
                   <h3>
                     <a href="blog_details.html">
-                      Footprints in Time is perfect House in Kurashiki
+                      Donate with UiTM
                     </a>
                   </h3>
                 </div>
@@ -754,7 +754,7 @@ function Index() {
             <div className="home-blog-single mb-30">
               <div className="blog-img-cap">
                 <div className="blog-img">
-                  <img src="assets/img/gallery/r3.png" alt="" />
+                  <img src="assets/img/gallery/r3.jpeg" alt="" />
                   {/* Blog date */}
                   <div className="blog-date text-center">
                     <span>24</span>
@@ -765,7 +765,7 @@ function Index() {
                   <p>Creative derector</p>
                   <h3>
                     <a href="blog_details.html">
-                      Footprints in Time is perfect House in Kurashiki
+                      Donations For UiTM Libraries
                     </a>
                   </h3>
                 </div>

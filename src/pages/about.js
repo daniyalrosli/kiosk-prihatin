@@ -35,31 +35,31 @@ function About() {
               <div className="row d-flex justify-content-between align-items-center">
                 <div className="header-info-left d-flex">
                   <ul>
-                    <li>Phone: +99 (0) 101 0000 888</li>
-                    <li>Email: noreply@yourdomain.com</li>
+                    <li>Phone: +60 0109089373</li>
+                    <li>Email: kioskprihatin@gmail.com</li>
                   </ul>
                   <div className="header-social">
                     <ul>
                       <li>
-                        <a href="#">
+                        <Link to="#">
                           <i className="fab fa-twitter" />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="https://www.facebook.com/sai4ull">
+                        <Link to="https://www.facebook.com/sai4ull">
                           <i className="fab fa-facebook-f" />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
+                        <Link to="#">
                           <i className="fab fa-linkedin-in" />
-                        </a>
+                        </Link>
                       </li>
                       <li>
                         {" "}
-                        <a href="#">
+                        <Link tof="#">
                           <i className="fab fa-google-plus-g" />
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -79,7 +79,7 @@ function About() {
                   </div>
                   <ul className="contact-now">
                     <li>
-                      <a href="#">Subscribe Now</a>
+                      <Link to="#">Subscribe Now</Link>
                     </li>
                   </ul>
                 </div>
@@ -94,7 +94,7 @@ function About() {
               <div className="col-xl-2 col-lg-2">
                 <div className="logo">
                   <a href="index.html">
-                    <img src="assets/img/logo/logo.png" alt="" />
+                    <img src="" alt="" />
                   </a>
                 </div>
               </div>
@@ -108,19 +108,19 @@ function About() {
                           <Link to="/">Home</Link>
                         </li>
                         <li>
-                          <Link to="about">About</Link>
+                          <Link to="/about">About</Link>
                         </li>
                         <li>
-                          <Link to="volunteer">volunteer</Link>
+                          <Link to="/volunteer">volunteer</Link>
                         </li>
                         <li>
-                          <Link to="events">social events </Link>
+                          <Link to="/events">social events </Link>
                         </li>
                         <li>
-                          <Link to="stocks">stocks</Link>
+                          <Link to="/stocks">stocks</Link>
                         </li>
                         <li>
-                          <Link to="contact">contact</Link>
+                          <Link to="/contact">contact</Link>
                         </li>
                       </ul>
                     </nav>
@@ -429,10 +429,10 @@ function About() {
                       <p>Address :UiTM KEDAH.</p>
                     </li>
                     <li>
-                      <a href="#">Phone : 60 109089373</a>
+                      <Link to="#">Phone : 60 109089373</Link>
                     </li>
                     <li>
-                      <a href="#">Email : kioskprihatin@gmail.com</a>
+                      <Link to="#">Email : kioskprihatin@gmail.com</Link>
                     </li>
                   </ul>
                 </div>
@@ -444,19 +444,19 @@ function About() {
                   <h4>Important Link</h4>
                   <ul>
                     <li>
-                      <a href="#"> View Project</a>
+                      <Link to="#"> View Project</Link>
                     </li>
                     <li>
-                      <a href="#">Contact Us</a>
+                      <Link to="#">Contact Us</Link>
                     </li>
                     <li>
-                      <a href="#">Testimonial</a>
+                      <Link to="#">Testimonial</Link>
                     </li>
                     <li>
-                      <a href="#">Proparties</a>
+                      <Link to="#">Proparties</Link>
                     </li>
                     <li>
-                      <a href="#">Support</a>
+                      <Link to="#">Support</Link>
                     </li>
                   </ul>
                 </div>
@@ -521,27 +521,27 @@ function About() {
                     {/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}
                     Copyright © All rights reserved | This template is made with{" "}
                     <i className="fa fa-heart" aria-hidden="true" /> by{" "}
-                    <a href="https://colorlib.com" target="_blank">
+                    <Link to="https://colorlib.com" target="_blank">
                       Colorlib
-                    </a>
+                    </Link>
                     {/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}
                   </p>
                 </div>
               </div>
               <div className="col-xl-2 col-lg-3">
                 <div className="footer-social f-right">
-                  <a href="#">
+                  <Link to="#">
                     <i className="fab fa-twitter" />
-                  </a>
-                  <a href="https://www.facebook.com/sai4ull">
+                  </Link>
+                  <Link to="https://www.facebook.com/sai4ull">
                     <i className="fab fa-facebook-f" />
-                  </a>
-                  <a href="#">
+                  </Link>
+                  <Link to="#">
                     <i className="fas fa-globe" />
-                  </a>
-                  <a href="#">
+                  </Link>
+                  <Link to="#">
                     <i className="fab fa-behance" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
