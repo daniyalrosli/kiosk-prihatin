@@ -94,7 +94,7 @@ function Elements() {
               <div className="col-xl-2 col-lg-2">
                 <div className="logo">
                   <a href="index.html">
-                    <img src="assets/img/logo/logo.png" alt="" />
+                    <img src="assets/img/logo/k2.png" alt="" />
                   </a>
                 </div>
               </div>

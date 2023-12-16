@@ -91,7 +91,7 @@ function Index() {
               <div className="col-xl-2 col-lg-2">
                 <div className="logo">
                   <a  href="/">
-                    <img src="" alt="" />
+                    <img src="assets/img/logo/k2.png" alt="" />
                   </a>
                 </div>
               </div>

@@ -94,14 +94,15 @@ function About() {
               <div className="col-xl-2 col-lg-2">
                 <div className="logo">
                   <a href="index.html">
-                    <img src="" alt="" />
+                    <img src="assets/img/logo/k2.png" alt="" />
                   </a>
                 </div>
               </div>
          <div className="col-xl-10 col-lg-10">
                 <div className="menu-wrapper  d-flex align-items-center justify-content-end">
                   {/* Main-menu */}
-                  <div className="main-menu d-none d-lg-block">
+                          <div className="main-menu d-none d-lg-block">
+                      
                     <nav>
                       <ul id="navigation">
                         <li>

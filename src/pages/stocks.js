@@ -92,7 +92,7 @@ function Stocks() {
               <div className="col-xl-2 col-lg-2">
                 <div className="logo">
                   <a href="index.html">
-                    <img src="assets/img/logo/logo.png" alt="" />
+                    <img src="assets/img/logo/k2.png" alt="" />
                   </a>
                 </div>
               </div>
@@ -149,36 +149,89 @@ function Stocks() {
                 
                 < div className="box-container">
                 <div className="box">
-                    <a href="" className="fas fa-heart"></a>
-                    <a href="" className="fas fa-eye"></a>
-                    <img src="assets/img/gallery/f1.png"></img>
+                    
+                    <img src="assets/img/gallery/f1.png" ></img>
                     <h3>Maggi Kari</h3>
                     <p>Stocks: 9</p>
                 </div>
 
                   <div className="box">
-                    <a href="" className="fas fa-heart"></a>
-                    <a href="" className="fas fa-eye"></a>
+                    
                     <img src="assets/img/gallery/f2.png"></img>
                     <h3>Biskut Tiger</h3>
                     <p>Stocks: 2</p>
                 </div>
 
                  <div className="box">
-                    <a href="" className="fas fa-heart"></a>
-                    <a href="" className="fas fa-eye"></a>
+                    
                     <img src="assets/img/gallery/f3.png"></img>
                     <h3>Gula Putih</h3>
                     <p>Stocks: 10</p>
                 </div>
 
                  <div className="box">
-                    <a href="" className="fas fa-heart"></a>
-                    <a href="" className="fas fa-eye"></a>
+                    
                     <img src="assets/img/gallery/f4.png"></img>
                     <h3>Roti Gardenia</h3>
                     <p>Stocks: 2</p>
-                </div>
+          </div>
+          
+           <div className="box">
+                    
+                    <img src="assets/img/gallery/t1.png"></img>
+                    <h3>Teh Lipton</h3>
+                    <p>Stocks: 9</p>
+          </div>
+          
+           <div className="box">
+                    
+                    <img src="assets/img/gallery/t2.png"></img>
+                    <h3>Bihun Pama</h3>
+                    <p>Stocks: 10</p>
+          </div>
+          
+           <div className="box">
+                    
+                    <img src="assets/img/gallery/t3.png"></img>
+                    <h3>Milo</h3>
+                    <p>Stocks: 7</p>
+          </div>
+          
+           <div className="box">
+                    
+                    <img src="assets/img/gallery/t4.png"></img>
+                    <h3>Koko Krunch</h3>
+                    <p>Stocks: 5</p>
+          </div>
+          
+          <div className="box">
+                    
+                    <img src="assets/img/gallery/w1.png"></img>
+                    <h3>Beras</h3>
+                    <p>Stocks: 4</p>
+          </div>
+          
+          <div className="box">
+                    
+                    <img src="assets/img/gallery/w2.png"></img>
+                    <h3>Nestum Coklat</h3>
+                    <p>Stocks: 9</p>
+          </div>
+          
+          <div className="box">
+                    
+                    <img src="assets/img/gallery/w3.png"></img>
+                    <h3>Minyak Masak</h3>
+                    <p>Stocks: 10</p>
+          </div>
+          
+          <div className="box">
+                    
+                    <img src="assets/img/gallery/w4.png"></img>
+                    <h3>Cornflake</h3>
+                    <p>Stocks: 5</p>
+          </div>
+          
 
 
 

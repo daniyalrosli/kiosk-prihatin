@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import { Link } from "react-router-dom";
 
 
 function Donate() {
@@ -7,92 +8,333 @@ function Donate() {
         
         <Fragment>
 
- <form method="post" action="//submit.form" onsubmit="return validateForm();">
-  <div style={{ maxWidth: 400 }}></div>
-  <div style={{ paddingBottom: 18, fontSize: 24 }}>Let's Donate</div>
-  <div style={{ display: "flex", paddingBottom: 18, maxWidth: 550 }}>
-    <div style={{ marginLeft: 0, marginRight: "1%", width: "49%" }}>
-      First name
-      <br />
-      <input
-        type="text"
-        id="data_2"
-        name="data_2"
-        style={{ maxWidth: "100%" }}
-        className="form-control"
-      />
-    </div>
-    <div style={{ marginLeft: "1%", marginRight: 0, width: "49%" }}>
-      Last name
-      <br />
-      <input
-        type="text"
-        id="data_3"
-        name="data_3"
-        style={{ maxWidth: "100%" }}
-        className="form-control"
-      />
+   <>
+  {/* ? Preloader Start */}
+          <div id="preloader-active">
+            
+    <div className="preloader d-flex align-items-center justify-content-center">
+      <div className="preloader-inner position-relative">
+        <div className="preloader-circle" />
+        <div className="preloader-img pere-text">
+          <img src="assets/img/logo/k2.png" alt="" />
+                </div>
+                
+               
+      </div>
     </div>
   </div>
-  <div style={{ paddingBottom: 18 }}>
-    Email
-    <br />
+  {/* Preloader Start */}
+  <header>
+    {/* Header Start */}
+            <div className="header-area">
+      <div className="main-header ">
+        <div className="header-top d-none d-lg-block">
+          <div className="container-fluid">
+            <div className="col-xl-12">
+              <div className="row d-flex justify-content-between align-items-center">
+                <div className="header-info-left d-flex">
+                  <ul>
+                    <li>Phone: +60 0109089373</li>
+                    <li>Email: kioskprihatin@gmail.com</li>
+                  </ul>
+                  <div className="header-social">
+                    <ul>
+                      <li>
+                        <Link to="#">
+                          <i className="fab fa-twitter" />
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="https://www.facebook.com/sai4ull">
+                          <i className="fab fa-facebook-f" />
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="#">
+                          <i className="fab fa-linkedin-in" />
+                        </Link>
+                      </li>
+                      <li>
+                        {" "}
+                        <Link tof="#">
+                          <i className="fab fa-google-plus-g" />
+                        </Link>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div className="header-info-right d-flex align-items-center">
+                  <div className="select-this">
+                    <form action="#">
+                      <div className="select-itms">
+                        <select name="select" id="select1">
+                          <option value="">English</option>
+                          <option value="">Bangla</option>
+                          <option value="">Arabic</option>
+                          <option value="">Hindi</option>
+                        </select>
+                      </div>
+                    </form>
+                  </div>
+                  <ul className="contact-now">
+                    <li>
+                      <Link to="#">Subscribe Now</Link>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="header-bottom  header-sticky">
+          <div className="container-fluid">
+            <div className="row align-items-center">
+              {/* Logo */}
+              <div className="col-xl-2 col-lg-2">
+                <div className="logo">
+                  <a href="index.html">
+                    <img src="assets/img/logo/k2.png" alt="" />
+                  </a>
+                </div>
+              </div>
+         <div className="col-xl-10 col-lg-10">
+                <div className="menu-wrapper  d-flex align-items-center justify-content-end">
+                  {/* Main-menu */}
+                          <div className="main-menu d-none d-lg-block">
+                      
+                    <nav>
+                      <ul id="navigation">
+                        <li>
+                          <Link to="/">Home</Link>
+                        </li>
+                        <li>
+                          <Link to="/about">About</Link>
+                        </li>
+                        <li>
+                          <Link to="/volunteer">volunteer</Link>
+                        </li>
+                        <li>
+                          <Link to="/events">social events </Link>
+                        </li>
+                        <li>
+                          <Link to="/stocks">stocks</Link>
+                        </li>
+                        <li>
+                          <Link to="/contact">contact</Link>
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+                  {/* Header-btn */}
+                  <div className="header-right-btn d-none d-lg-block ml-20">
+                   <a href="donate" className="btn header-btn">
+                      Donate
+                    </a>
+                  </div>
+                </div>
+              </div>
+              {/* Mobile Menu */}
+              <div className="col-12">
+                <div className="mobile_menu d-block d-lg-none" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    {/* Header End */}
+  </header>
+  {/* header end */}
+  <main>
+    {/*? Hero Start */}
+   
+            
+<div className="donation-container">
+  <h2> Let's Donate </h2>
+              
+  <form id="donation-form">
+    <label htmlFor="donation-amount">Donation Amount:</label>
     <input
-      type="text"
-      id="data_4"
-      name="data_4"
-      style={{ maxWidth: 550 }}
-      className="form-control"
+      type="number"
+      id="donation-amount"
+      name="donation-amount"
+      required=""
     />
-  </div>
-  <div style={{ paddingBottom: 18 }}>
-    Donation Amount<span style={{ color: "red" }}> *</span>
     <br />
-    <span>
-      <input type="radio" id="data_5_0" name="data_5" defaultValue="$50" /> $50
-    </span>
+    <label htmlFor="full-name">Full Name:</label>
+    <input type="text" id="full-name" name="full-name" required="" />
     <br />
-    <span>
-      <input type="radio" id="data_5_1" name="data_5" defaultValue="$100" />{" "}
-      $100
-    </span>
+    <label htmlFor="email">Email:</label>
+    <input type="email" id="email" name="email" required="" />
     <br />
-    <span>
-      <input type="radio" id="data_5_2" name="data_5" defaultValue="$250" />{" "}
-      $250
-    </span>
+    <label htmlFor="email">Phone Number:</label>
+    <input type="email" id="email" name="email" required="" />
     <br />
-    <span>
-      <input type="radio" id="data_5_3" name="data_5" defaultValue="$500" />{" "}
-      $500
-    </span>
-    <br />
-  </div>
-  <div style={{ paddingBottom: 18 }}>
-    Full Address
-    <br />
-    <textarea
-      id="data_6"
-      false=""
-      name="data_6"
-      style={{ maxWidth: 550 }}
-      rows={3}
-      className="form-control"
-      defaultValue={""}
-    />
-  </div>
-  <div style={{ paddingBottom: 18 }}>
-    <input name="skip_Submit" defaultValue="proceed to payment" type="submit" />
-  </div>
-  <div>
-    <div style={{ float: "right" }}>
-      <a href="https://www.100forms.com" id="lnk100" title="form to email">
-        form to email
-      </a>
-    </div>
-  </div>
+  <Link to="/pay">
+  <button type="button">Donate</button>
+</Link>
 </form>
+               
+</div>
 
+
+
+
+   
+  </main>
+  <footer>
+    <div
+      className="footer-wrapper section-bg2"
+      data-background="assets/img/gallery/footer_bg.png"
+    >
+      {/* Footer Top*/}
+      <div className="footer-area footer-padding">
+        <div className="container">
+          <div className="row d-flex justify-content-between">
+            <div className="col-xl-3 col-lg-3 col-md-4 col-sm-6">
+              <div className="single-footer-caption mb-50">
+                <div className="single-footer-caption mb-30">
+                  <div className="footer-tittle">
+                    <div className="footer-logo mb-20">
+                      <a href="index.html">
+                        <img src="assets/img/logo/logo2_footer.png" alt="" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-3 col-lg-3 col-md-4 col-sm-5">
+              <div className="single-footer-caption mb-50">
+                <div className="footer-tittle">
+                  <h4>Contact Info</h4>
+                  <ul>
+                    <li>
+                      <p>Address :UiTM KEDAH.</p>
+                    </li>
+                    <li>
+                      <Link to="#">Phone : 60 109089373</Link>
+                    </li>
+                    <li>
+                      <Link to="#">Email : kioskprihatin@gmail.com</Link>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-3 col-lg-3 col-md-4 col-sm-5">
+              <div className="single-footer-caption mb-50">
+                <div className="footer-tittle">
+                  <h4>Important Link</h4>
+                  <ul>
+                    <li>
+                      <Link to="#"> View Project</Link>
+                    </li>
+                    <li>
+                      <Link to="#">Contact Us</Link>
+                    </li>
+                    <li>
+                      <Link to="#">Testimonial</Link>
+                    </li>
+                    <li>
+                      <Link to="#">Proparties</Link>
+                    </li>
+                    <li>
+                      <Link to="#">Support</Link>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-3 col-lg-3 col-md-4 col-sm-5">
+              <div className="single-footer-caption mb-50">
+                <div className="footer-tittle">
+                  <h4>Newsletter</h4>
+                  <div className="footer-pera footer-pera2">
+                    <p>
+                      Heaven fruitful doesn't over lesser in days. Appear
+                      creeping.
+                    </p>
+                  </div>
+                  {/* Form */}
+                  <div className="footer-form">
+                    <div id="mc_embed_signup">
+                      <form
+                        target="_blank"
+                        action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&id=92a4423d01"
+                        method="get"
+                        className="subscribe_form relative mail_part"
+                      >
+                        <input
+                          type="email"
+                          name="email"
+                          id="newsletter-form-email"
+                          placeholder="Email Address"
+                          className="placeholder hide-on-focus"
+                          onfocus="this.placeholder = ''"
+                          onblur="this.placeholder = ' Email Address '"
+                        />
+                        <div className="form-icon">
+                          <button
+                            type="submit"
+                            name="submit"
+                            id="newsletter-submit"
+                            className="email_icon newsletter-submit button-contactForm"
+                          >
+                            <img src="assets/img/gallery/form.png" alt="" />
+                          </button>
+                        </div>
+                        <div className="mt-10 info" />
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* footer-bottom */}
+      <div className="footer-bottom-area">
+        <div className="container">
+          <div className="footer-border">
+            <div className="row d-flex justify-content-between align-items-center">
+              <div className="col-xl-10 col-lg-9 ">
+                <div className="footer-copy-right">
+                  <p>
+                    {/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}
+                    Copyright © All rights reserved | This template is made with{" "}
+                    <i className="fa fa-heart" aria-hidden="true" /> by{" "}
+                    <Link to="https://colorlib.com" target="_blank">
+                      Colorlib
+                    </Link>
+                    {/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}
+                  </p>
+                </div>
+              </div>
+              <div className="col-xl-2 col-lg-3">
+                <div className="footer-social f-right">
+                  <Link to="#">
+                    <i className="fab fa-twitter" />
+                  </Link>
+                  <Link to="https://www.facebook.com/sai4ull">
+                    <i className="fab fa-facebook-f" />
+                  </Link>
+                  <Link to="#">
+                    <i className="fas fa-globe" />
+                  </Link>
+                  <Link to="#">
+                    <i className="fab fa-behance" />
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</>
 
 
         </Fragment>
@@ -100,3 +342,6 @@ function Donate() {
 }
 
 export default Donate;
+
+
+
