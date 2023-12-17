@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import { Link } from "react-router-dom";
 
 
 function Pay() {
@@ -76,11 +77,10 @@ function Pay() {
           </div>
         </div>
       </div>
-      <input
-        type="submit"
-        defaultValue="Proceed to checkout"
-        className="submit-btn"
-      />
+      
+      <Link to="/thankyou">
+  <button type="button">Submit</button>
+</Link>
     </form>
   </div>
 </>

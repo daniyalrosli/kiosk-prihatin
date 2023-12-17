@@ -11,6 +11,8 @@ import Contact from "./pages/contact";
 import Elements from "./pages/elements";
 import Pay from "./pages/paygateway";
 import Stocks from "./pages/stocks";
+import Thankyou from "./pages/afterdonate";
+import Tq from "./pages/aftervolunteer";
 
 function App() {
   return (
@@ -30,6 +32,8 @@ function App() {
           <Route path='/events' element={<Events></Events>} ></Route>
           <Route path='/pay' element={<Pay></Pay>} ></Route>
           <Route path='/stocks' element={<Stocks></Stocks>} ></Route>
+          <Route path='/thankyou' element={<Thankyou></Thankyou>} ></Route>
+          <Route path='/tq' element={<Tq></Tq>} ></Route>
 
           
           

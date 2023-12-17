@@ -193,7 +193,9 @@ function Volunteer() {
       <label htmlFor="message">Message (Optional):</label>
       <textarea id="message" name="message" rows={4} defaultValue={""} />
       <br />
-      <button type="submit">Sign Up</button>
+     <Link to="/tq">
+  <button type="button">Submit</button>
+</Link>
     </form>
   </div>
 </>
