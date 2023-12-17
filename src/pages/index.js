@@ -65,12 +65,7 @@ function Index() {
                   <div className="select-this">
                     <form action="#">
                       <div className="select-itms">
-                        <select name="select" id="select1">
-                          <option value="">English</option>
-                          <option value="">Bangla</option>
-                          <option value="">Arabic</option>
-                          <option value="">Hindi</option>
-                        </select>
+                        
                       </div>
                     </form>
                   </div>
@@ -227,7 +222,7 @@ function Index() {
               {/* Section Tittle */}
               <div className="section-tittle mb-35">
                 <span>About our society</span>
-                <h2>We Are In A Mission To Help Helpless</h2>
+              <strong><h3>We Are In A Mission To Help Helpless</h3></strong>
               </div>
               <p>
                       Welcome to Kiosk Prihatin! We're here for you and our community. Our goal is to help by providing resources and support. From health to education, we're focused on making

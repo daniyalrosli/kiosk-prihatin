@@ -68,12 +68,7 @@ function About() {
                   <div className="select-this">
                     <form action="#">
                       <div className="select-itms">
-                        <select name="select" id="select1">
-                          <option value="">English</option>
-                          <option value="">Bangla</option>
-                          <option value="">Arabic</option>
-                          <option value="">Hindi</option>
-                        </select>
+                       
                       </div>
                     </form>
                   </div>
@@ -476,33 +471,7 @@ function About() {
                   {/* Form */}
                   <div className="footer-form">
                     <div id="mc_embed_signup">
-                      <form
-                        target="_blank"
-                        action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&id=92a4423d01"
-                        method="get"
-                        className="subscribe_form relative mail_part"
-                      >
-                        <input
-                          type="email"
-                          name="email"
-                          id="newsletter-form-email"
-                          placeholder="Email Address"
-                          className="placeholder hide-on-focus"
-                          onfocus="this.placeholder = ''"
-                          onblur="this.placeholder = ' Email Address '"
-                        />
-                        <div className="form-icon">
-                          <button
-                            type="submit"
-                            name="submit"
-                            id="newsletter-submit"
-                            className="email_icon newsletter-submit button-contactForm"
-                          >
-                            <img src="assets/img/gallery/form.png" alt="" />
-                          </button>
-                        </div>
-                        <div className="mt-10 info" />
-                      </form>
+                     
                     </div>
                   </div>
                 </div>
