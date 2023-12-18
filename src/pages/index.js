@@ -654,10 +654,11 @@ function Index() {
                   </div>
                   <div className="testimonial-top-cap">
                     <p>
-                      “I am at an age where I just want to be fit and healthy
-                      our bodies are our responsibility! So start caring for
-                      your body and it will care for you. Eat clean it will care
-                      for you and workout hard.”
+                            I stand before you today with
+                            immense gratitude for the dedication and passion
+                            each one of you brings to Kiosk Prihatin.
+                            Our collective efforts have not only
+                            shaped our organization but have also impacted countless lives within our community.
                     </p>
                   </div>
                 </div>
@@ -675,10 +676,9 @@ function Index() {
                   </div>
                   <div className="testimonial-top-cap">
                     <p>
-                      “I am at an age where I just want to be fit and healthy
-                      our bodies are our responsibility! So start caring for
-                      your body and it will care for you. Eat clean it will care
-                      for you and workout hard.”
+                            It's an honor to stand among such a dedicated and passionate group of individuals today.
+                            As the Deputy Director of Kiosk Prihatin,
+                            I am continuously inspired by the unwavering commitment each of you demonstrates towards our cause.
                     </p>
                   </div>
                 </div>
@@ -696,10 +696,9 @@ function Index() {
                   </div>
                   <div className="testimonial-top-cap">
                     <p>
-                      “I am at an age where I just want to be fit and healthy
-                      our bodies are our responsibility! So start caring for
-                      your body and it will care for you. Eat clean it will care
-                      for you and workout hard.”
+                            am truly humbled to stand before you today amidst such a passionate and dedicated group of individuals.
+                            As the Creative Director of Kiosk Prihatin,
+                            it's an honor to witness the creative energy and commitment each of you brings to our cause.
                     </p>
                   </div>
                 </div>
@@ -735,7 +734,7 @@ function Index() {
                   </div>
                 </div>
                 <div className="blog-cap">
-                  <p>Creative derector</p>
+                  <p>UiTM Merbok</p>
                   <h3>
                     <a href="blog_details.html">
                       Donate with UiTM
@@ -757,7 +756,7 @@ function Index() {
                   </div>
                 </div>
                 <div className="blog-cap">
-                  <p>Creative derector</p>
+                  <p>UiTM Jasin</p>
                   <h3>
                     <a href="blog_details.html">
                       Donations For UiTM Libraries

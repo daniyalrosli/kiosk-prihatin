@@ -74,7 +74,7 @@ function About() {
                   </div>
                   <ul className="contact-now">
                     <li>
-                      <Link to="#">Subscribe Now</Link>
+                      <Link to="#">Login Now</Link>
                     </li>
                   </ul>
                 </div>
@@ -238,7 +238,8 @@ function About() {
               {/* Section Tittle */}
               <div className="section-tittle mb-35">
                 <span>About our society</span>
-                <h2>We Are In A Mission To Help Helpless</h2>
+                <h1>We Are In A Mission To Help Helpless</h1>
+
               </div>
               <p>
                       Welcome to Kiosk Prihatin! We're here for you and our community. Our goal is to help by providing resources and support. From health to education, we're focused on making
@@ -254,7 +255,7 @@ function About() {
             {/* about-img */}
             <div className="about-img ">
               <div className="about-font-img d-none d-lg-block">
-                <img src="" alt="" />
+                <img src="assets/img/logo/k2.png" alt="" />
               </div>
               <div className="about-back-img ">
                 
@@ -269,6 +270,8 @@ function About() {
  
     {/* Want To work End */}
     {/*? Testimonial Start */}
+     {/* Want To work End */}
+    {/*? Testimonial Start */}
     <div className="testimonial-area testimonial-padding">
       <div className="container">
         {/* Testimonial contents */}
@@ -282,16 +285,17 @@ function About() {
                   <div className="testimonial-founder">
                     <div className="founder-img mb-40">
                       <img src="assets/img/gallery/bg1.png" alt="" />
-                      <span>Margaret Lawson</span>
-                      <p>Creative Director</p>
+                      <span>Hariz Zamzuri</span>
+                      <p>Kiosk Prihatin Director</p>
                     </div>
                   </div>
                   <div className="testimonial-top-cap">
                     <p>
-                      “I am at an age where I just want to be fit and healthy
-                      our bodies are our responsibility! So start caring for
-                      your body and it will care for you. Eat clean it will care
-                      for you and workout hard.”
+                            I stand before you today with
+                            immense gratitude for the dedication and passion
+                            each one of you brings to Kiosk Prihatin.
+                            Our collective efforts have not only
+                            shaped our organization but have also impacted countless lives within our community.
                     </p>
                   </div>
                 </div>
@@ -303,16 +307,15 @@ function About() {
                   <div className="testimonial-founder">
                     <div className="founder-img mb-40">
                       <img src="assets/img/gallery/bg2.png" alt="" />
-                      <span>Margaret Lawson</span>
-                      <p>Creative Director</p>
+                      <span>Luqman Hakim</span>
+                      <p>Kiosk Prihatin Deputy Director</p>
                     </div>
                   </div>
                   <div className="testimonial-top-cap">
                     <p>
-                      “I am at an age where I just want to be fit and healthy
-                      our bodies are our responsibility! So start caring for
-                      your body and it will care for you. Eat clean it will care
-                      for you and workout hard.”
+                            It's an honor to stand among such a dedicated and passionate group of individuals today.
+                            As the Deputy Director of Kiosk Prihatin,
+                            I am continuously inspired by the unwavering commitment each of you demonstrates towards our cause.
                     </p>
                   </div>
                 </div>
@@ -324,16 +327,15 @@ function About() {
                   <div className="testimonial-founder">
                     <div className="founder-img mb-40">
                       <img src="assets/img/gallery/bg3.png" alt="" />
-                      <span>Margaret Lawson</span>
-                      <p>Creative Director</p>
+                      <span>Muhammad Al Hanis</span>
+                      <p>Kiosk Prihatin Creative Director</p>
                     </div>
                   </div>
                   <div className="testimonial-top-cap">
                     <p>
-                      “I am at an age where I just want to be fit and healthy
-                      our bodies are our responsibility! So start caring for
-                      your body and it will care for you. Eat clean it will care
-                      for you and workout hard.”
+                            am truly humbled to stand before you today amidst such a passionate and dedicated group of individuals.
+                            As the Creative Director of Kiosk Prihatin,
+                            it's an honor to witness the creative energy and commitment each of you brings to our cause.
                     </p>
                   </div>
                 </div>
@@ -356,32 +358,32 @@ function About() {
               <div className="row justify-content-between">
                 <div className="col-lg-3 col-md-6 col-sm-6">
                   {/* Counter Up */}
-                  <div className="single-counter text-center">
-                    <span className="counter color-green">6,200</span>
+                  <div className=" text-center">
+                    <span className="counter color-black">6,200</span>
                     <span className="plus">+</span>
                     <p className="color-green">Donation</p>
                   </div>
                 </div>
                 <div className="col-lg-3 col-md-6 col-sm-6">
                   {/* Counter Up */}
-                  <div className="single-counter text-center">
-                    <span className="counter color-green">80</span>
+                  <div className=" text-center">
+                    <span className="counter color-black">80</span>
                     <span className="plus">+</span>
                     <p className="color-green">Fund Raised</p>
                   </div>
                 </div>
                 <div className="col-lg-3 col-md-6 col-sm-6">
                   {/* Counter Up */}
-                  <div className="single-counter text-center">
-                    <span className="counter color-green">256</span>
+                  <div className="text-center">
+                    <span className="counter color-black">256</span>
                     <span className="plus">+</span>
                     <p className="color-green">Donation</p>
                   </div>
                 </div>
                 <div className="col-lg-3 col-md-6 col-sm-6">
                   {/* Counter Up */}
-                  <div className="single-counter text-center">
-                    <span className="counter color-green">256</span>
+                  <div className="text-center">
+                    <span className="counter color-black">256</span>
                     <span className="plus">+</span>
                     <p className="color-green">Donation</p>
                   </div>

@@ -161,32 +161,32 @@ function Events() {
               <div className="row justify-content-between">
                 <div className="col-lg-3 col-md-6 col-sm-6">
                   {/* Counter Up */}
-                  <div className="single-counter text-center">
-                    <span className="counter color-green">6,200</span>
+                  <div className=" text-center">
+                    <span className="counter color-black">6,200</span>
                     <span className="plus">+</span>
                     <p className="color-green">Donation</p>
                   </div>
                 </div>
                 <div className="col-lg-3 col-md-6 col-sm-6">
                   {/* Counter Up */}
-                  <div className="single-counter text-center">
-                    <span className="counter color-green">80</span>
+                  <div className="text-center">
+                    <span className="counter color-black">80</span>
                     <span className="plus">+</span>
                     <p className="color-green">Fund Raised</p>
                   </div>
                 </div>
                 <div className="col-lg-3 col-md-6 col-sm-6">
                   {/* Counter Up */}
-                  <div className="single-counter text-center">
-                    <span className="counter color-green">256</span>
+                  <div className=" text-center">
+                    <span className="counter color-black">256</span>
                     <span className="plus">+</span>
                     <p className="color-green">Donation</p>
                   </div>
                 </div>
                 <div className="col-lg-3 col-md-6 col-sm-6">
                   {/* Counter Up */}
-                  <div className="single-counter text-center">
-                    <span className="counter color-green">256</span>
+                  <div className=" text-center">
+                    <span className="counter color-black">256</span>
                     <span className="plus">+</span>
                     <p className="color-green">Donation</p>
                   </div>
